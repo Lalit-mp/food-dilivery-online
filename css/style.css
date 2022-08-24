@@ -1,0 +1,252 @@
+/* responsive for mobile  */
+@media (max-width: 1060px) {
+  #navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #home p {
+    font-size: 14px;
+  }
+  #home p {
+    font-size: 20px;
+  }
+  #home {
+    height: 400px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    flex-wrap: wrap;
+  }
+  #services {
+    /* width: 50vw;
+    /* height: auto; */
+    margin: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+}
+
+/* boby css  */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.firstbg {
+  height: 490px;
+  width: 100vw;
+  background: url(../Images/pexels-ash-376464.jpg) no-repeat center center;
+  background-size: cover;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+/* Navigation bar  */
+#navbar {
+  padding: 10px 0px;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  opacity: 0.8;
+}
+#logo img {
+  padding: 0 20px;
+  width: 60px;
+  border-radius: 50%;
+}
+nav ul {
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul a {
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav ul a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Home section  */
+#home {
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+#home button:hover {
+  background-color: rgb(105, 26, 26);
+  font-size: 16px;
+  box-shadow: 3px 3px 5px white;
+}
+#home h1,
+#home p,
+#home button {
+  margin: 6px 0;
+}
+#home p {
+  font-size: 18px;
+}
+
+/* Our services */
+
+#services-container {
+  margin: 40px 0;
+}
+#services {
+  margin: 40px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box {
+  padding: 10px;
+  height: 300px;
+  width: 28vw;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(213, 213, 213);
+}
+#services-container img {
+  height: 80px;
+}
+
+/* our clients  */
+
+#our-clients {
+  background: url(../Images/lily-banse--YHSwy6uqvk-unsplash.jpg) no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#our-clients::after {
+  width: 100vw;
+  height: 400px;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  position: absolute;
+  z-index: -1;
+}
+#section3oc {
+  z-index: 5;
+}
+
+#logocontainer {
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.clientslogo img {
+  z-index: 5;
+  height: 80px;
+  padding: 3px 8px;
+  margin: 10px 15px;
+}
+
+/* section contact us */
+
+#contact-us {
+  height: 400px;
+  background: url(../Images/cont.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.contactusnest {
+  padding: 20px 0;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactformdata form {
+  height: 60vh;
+  width: 50vw;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactformdata form #textinput {
+  margin: 4px 0;
+}
+.contactformdata form #textinput input {
+  height: 20px;
+  width: 400px;
+  padding: 2px 8px;
+}
+.contactformdata form button {
+  margin: 10px 0;
+  height: 40px;
+  width: 424px;
+  padding: 2px 8px;
+font-size: 16px;
+background: brown;
+color: white;
+border: 3px solid white;
+}
+.contactformdata form button:hover {
+  margin: 10px 0;
+  height: 40px;
+  width: 424px;
+  padding: 2px 8px;
+font-size: 18px;
+background: rgb(57, 11, 11);
+color: rgb(255, 255, 255);
+box-shadow: 3px 3px white;
+}
+
+/* Footer  */
+footer p {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* utilityclasses */
+
+.center {
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  padding: 8px 14px;
+  background-color: brown;
+  color: white;
+}
+.h-primary {
+  font-size: 35px;
+}
+.h-secondary {
+  font-size: 25px;
+}
